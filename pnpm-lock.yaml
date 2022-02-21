@@ -8,6 +8,10 @@ overrides:
   clean-css@<4.1.11: '>=4.1.11'
   uglify-js@<2.4.24: '>=2.4.24'
   uglify-js@<2.6.0: '>=2.6.0'
+  node-forge@<1.0.0: '>=1.0.0'
+  follow-redirects@<1.14.7: '>=1.14.7'
+  node-fetch@<2.6.7: '>=2.6.7'
+  follow-redirects@<1.14.8: '>=1.14.8'
 
 specifiers:
   '@google-cloud/vision': ^1.1.3
@@ -737,7 +741,7 @@ packages:
     engines: {node: '>=8.10.0'}
     hasBin: true
     dependencies:
-      node-forge: 0.10.0
+      node-forge: 1.2.1
     dev: false
 
   /gtoken/4.1.4:
@@ -1014,9 +1018,9 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /node-forge/0.10.0:
-    resolution: {integrity: sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==}
-    engines: {node: '>= 6.0.0'}
+  /node-forge/1.2.1:
+    resolution: {integrity: sha512-Fcvtbb+zBcZXbTTVwqGA5W+MKBj56UjVRevvchv5XrcyXbmNdesfZL37nlcWOfpgHhgmxApw3tQbTr4CqNmX4w==}
+    engines: {node: '>= 6.13.0'}
     dev: false
 
   /nth-check/2.0.1:
